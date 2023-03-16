@@ -1,0 +1,54 @@
+body {
+  padding: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.container :nth-child(n) {
+  width: 100%;
+  min-width: 300px;
+}
+
+.suggestions {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  display: none;
+}
+
+.suggestions_show {
+  display: block;
+}
+
+.suggestions > div {
+  padding: 5px;
+}
+
+.suggestions > div:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+input {
+  font-size: 16px;
+  padding: 4px;
+}
+
+.result {
+  width: 50%;
+  min-width: 300px;
+}
+
+.row {
+  margin-top: 1em;
+}
+
+.row label {
+  display: block;
+  min-width: 10em;
+}
+
+.row input,
+.row textarea {
+  width: 100%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datata test task</title>
+  </head>
+  <body>
+    <template id="suggestion-input-template">
+      <link rel="stylesheet" href="styles.css" />
+
+      <section class="container">
+        <p><strong>Компания или ИП</strong></p>
+        <input
+          id="party"
+          name="party"
+          type="text"
+          placeholder="Введите название, ИНН, ОГРН или адрес организации"
+        />
+        <div id="suggestions" class="suggestions"></div>
+      </section>
+
+      <section class="result">
+        <p id="type"></p>
+        <div class="row">
+          <label>Краткое наименование</label>
+          <input id="name_short" />
+        </div>
+        <div class="row">
+          <label>Полное наименование</label>
+          <input id="name_full" />
+        </div>
+        <div class="row">
+          <label>ИНН / КПП</label>
+          <input id="inn_kpp" />
+        </div>
+        <div class="row">
+          <label>Адрес</label>
+          <input id="address" />
+        </div>
+      </section>
+    </template>
+
+    <suggestion-input></suggestion-input>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
