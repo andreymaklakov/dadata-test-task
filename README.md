@@ -4,4 +4,4 @@ Companies can be found typing its params in first input
 
 Check it at codepen:
 
-https://codepen.io/AndrejsMaklakovs/pen/LYJmoeo
+https://codepen.io/AndrejsMaklakovs/full/LYJmoeo
